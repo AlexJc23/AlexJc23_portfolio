@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Layout from './layout';
+import Layout from './Layout';
 
 
 export const router = createBrowserRouter([
@@ -13,4 +13,3 @@ export const router = createBrowserRouter([
           ],
   },
 ]);
-
