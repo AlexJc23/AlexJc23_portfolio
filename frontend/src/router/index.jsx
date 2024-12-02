@@ -1,6 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Layout from './Layout';
 
+import Homepage from '../Components/Homepage';
+import Resume from '../Components/Resume/Resume';
+import DuelForge from '../Components/DuelForge/DuelForge';
+
 
 export const router = createBrowserRouter([
   {
@@ -8,8 +12,17 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <h1>Hello</h1>,
+        element: <Homepage />,
       },
+      {
+        path: "/duelforge",
+        element: <DuelForge />,
+      },
+
           ],
+  },
+  {
+    path: "/resume",
+    element: <Resume />,
   },
 ]);

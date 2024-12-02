@@ -1,0 +1,84 @@
+.df-header {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.project-nav {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.project-nav:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.project-middle {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.df-topleft {
+    max-width: 50%;
+    flex: 1 1 100%; /* Ensures it spans full width on smaller screens */
+}
+
+.project-list {
+    list-style: none;
+}
+.span-text-main{
+    color: rgba(112, 112, 112, 0.801);
+    font-weight: 300;
+}
+.project-list li {
+    /* display: flex; */
+    color: black;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.project-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* Ensures image scales properly */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-middle {
+        flex-direction: column; /* Stacks content vertically on smaller screens */
+        align-items: start; /* Centers content */
+        gap: 20px;
+
+    }
+
+    .df-topleft {
+        max-width: 100%; /* Allows it to take full width */
+        margin-bottom: 20px; /* Adds spacing between elements */
+    }
+
+    .project-img {
+        height: 400px; /* Reduces image height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .df-header {
+        font-size: 1.6rem; /* Adjusts font size for smaller screens */
+    }
+
+    .project-img {
+        height: 300px; /* Further reduces image height for very small screens */
+    }
+
+    .project-list li {
+        max-width: 100%; /* Allows list items to fit comfortably */
+    }
+}

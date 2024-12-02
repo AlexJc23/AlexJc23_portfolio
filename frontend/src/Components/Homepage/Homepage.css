@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height to support flexbox layout */
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+
+  /* Parent container of the app */
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  /* Main content section grows to fill the remaining space */
+  main {
+    flex: 1; /* Allows the main content to grow and push the footer down */
+  }
+
+  .wholepage {
+    max-width: 90%;
+    margin: 23px auto;
+  }
+.landing-cont {
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.landing-cont p{
+  font-weight: 800;
+  font-size: 5rem;
+  max-width: 60%;
+
+
+}
+
+.landing-email{
+  font-size: 1.4rem;
+  border: 1px solid black;
+  padding: 35px 60px;
+  border-radius: 59px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  max-width: fit-content;
+}
+.landing-email:hover{
+  font-size: 1.4rem;
+  border: 1px solid black;
+  padding: 35px 60px;
+  border-radius: 59px;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  max-width: fit-content;
+}
+
+/* Responsive Design for Tablet and Below */
+@media (max-width: 768px) {
+  .landing-cont p {
+      font-size: 3.5rem;
+      max-width: 80%;
+  }
+
+  .landing-email {
+      font-size: 1.2rem;
+      padding: 30px 50px;
+      border-radius: 50px;
+      max-width: 100%;
+  }
+}
+
+/* Responsive Design for Mobile and Below */
+@media (max-width: 480px) {
+  .landing-cont p {
+      font-size: 2.5rem;
+      max-width: 90%;
+  }
+
+  .landing-email {
+      font-size: 1.1rem;
+      padding: 25px 40px;
+      border-radius: 45px;
+      max-width: 100%;
+  }
+  .landing-email:hover{
+      font-size: 1.1rem;
+      padding: 25px 40px;
+      border-radius: 45px;
+      max-width: 100%;
+  }
+
+  .landing-cont {
+      gap: 40px;
+  }
+}
