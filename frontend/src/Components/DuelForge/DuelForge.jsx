@@ -22,8 +22,8 @@ const DuelForge = () => {
                 <img className='project-topimg' src={"createDeckmock.png"}/>
                 <p>Platform built with React and Flask that allows users to create and manage custom Yu-Gi-Oh! decks while exploring a vast card collection. With community-driven events, an intuitive interface, and real-time updates, players can join tournaments, connect with others, and refine their strategies for a seamless dueling experience.</p>
                 <div className="links">
-                    <a href="https://duelforge.onrender.com/">Live Demo</a>
-                    <a href="https://github.com/AlexJc23/DuelForge/wiki">GitHub Repository</a>
+                    <a href="https://duelforge.onrender.com/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/AlexJc23/DuelForge/wiki" target="_blank">GitHub Repository</a>
                 </div>
             </div>
             <div className="tech">
@@ -67,7 +67,7 @@ const DuelForge = () => {
                     <img className="plan-img second-front" src="codeSnippFront2.png" alt="frontend code snippet"/>
                     <img className="plan-img third-front" src="codeSnippFront4.png" alt="frontend code snippet"/>
                 </div>
-                <p><span className="span-text"></span>Challenges & Solutions</p>
+                <p><span className="span-text">Challenges & Solutions</span></p>
                 <ul>
                     <li>
                     <span className="span-text">Managing Complex State:</span> Managed complex application state using Redux, making it easier to scale and maintain.
@@ -84,32 +84,32 @@ const DuelForge = () => {
                     <img className="plan-img second-front" src="codeSnippBack2.png" alt="frontend code snippet"/>
                     <img className="plan-img third-front" src="codeSnippBack3.png" alt="frontend code snippet"/>
                 </div>
-                <p>For the backend, I focus on building secure, efficient, and maintainable systems using a Python-based stack. Key elements of my backend development include:</p>
+                <p style={{textAlign: 'center'}}>For the backend, I focus on building secure, efficient, and maintainable systems using a Python-based stack. Key elements of my backend development include:</p>
 
                 <ul>
-                    <li><span className="span-text">Tech Stack:</span> Tech Stack: Flask, SQLAlchemy, PostgreSQL, Alembic, Flask-Migrate</li>
+                    <li><span className="span-text">Tech Stack:</span>  Flask, SQLAlchemy, PostgreSQL, Alembic, Flask-Migrate</li>
                     <li>
-                    <span className="span-text">Database Management:</span> Database Management: Utilized SQLAlchemy to manage and optimize relational databases (PostgreSQL) for data consistency and efficient querying.
+                    <span className="span-text">Database Management:</span>  Utilized SQLAlchemy to manage and optimize relational databases (PostgreSQL) for data consistency and efficient querying.
                     </li>
                     <li>
-                    <span className="span-text">API Development:</span> API Development: Developed robust RESTful APIs using Flask to handle business logic and facilitate seamless communication between the frontend and backend.
+                    <span className="span-text">API Development:</span>  Developed robust RESTful APIs using Flask to handle business logic and facilitate seamless communication between the frontend and backend.
                     </li>
                     <li>
-                    <span className="span-text">Authentication & Authorization:</span> Authentication & Authorization: Integrated Flask-Login for user authentication and Flask-CORS to ensure secure cross-origin requests.
+                    <span className="span-text">Authentication & Authorization:</span>  Integrated Flask-Login for user authentication and Flask-CORS to ensure secure cross-origin requests.
                     </li>
                     <li>
-                    <span className="span-text">Database Migrations:</span> Database Migrations: Managed database migrations with Alembic and Flask-Migrate, ensuring smooth schema changes throughout development.
+                    <span className="span-text">Database Migrations:</span>  Managed database migrations with Alembic and Flask-Migrate, ensuring smooth schema changes throughout development.
                     </li>
-                    <li><span className="span-text">Error Handling & Logging:</span> Error Handling & Logging: Implemented error handling and logging to track issues and ensure reliable performance across the application.</li>
+                    <li><span className="span-text">Error Handling & Logging:</span>  Implemented error handling and logging to track issues and ensure reliable performance across the application.</li>
                 </ul>
-                <p><span className="span-text">Challenges & Solutions</span> Challenges & Solutions</p>
+                <p><span className="span-text">Challenges & Solutions</span> </p>
                 <ul>
-                    <li><span className="span-text">Database Performance:</span> Database Performance: Addressed performance issues by optimizing queries and using indexes in PostgreSQL.</li>
+                    <li><span className="span-text">Database Performance:</span>  Addressed performance issues by optimizing queries and using indexes in PostgreSQL.</li>
                     <li>
-                    <span className="span-text">Authentication:</span> Authentication: Ensured secure user sessions with Flask-Login while allowing for seamless, secure login processes.
+                    <span className="span-text">Authentication:</span>  Ensured secure user sessions with Flask-Login while allowing for seamless, secure login processes.
                     </li>
                     <li>
-                    <span className="span-text">Managing Schema Changes:</span> Managing Schema Changes: Overcame challenges with schema changes by using Alembic and Flask-Migrate for smooth, manageable database migrations.
+                    <span className="span-text">Managing Schema Changes:</span>  Overcame challenges with schema changes by using Alembic and Flask-Migrate for smooth, manageable database migrations.
                     </li>
                 </ul>
                 <p>
