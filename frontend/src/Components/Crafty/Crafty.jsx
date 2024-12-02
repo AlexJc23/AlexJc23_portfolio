@@ -94,7 +94,7 @@ const Crafty = () => {
                     <img className="plan-img second-front" src="backend_crafty3.png" alt="frontend code snippet"/>
                     <img className="plan-img third-front" src="backend_crafty1.png" alt="frontend code snippet"/>
                 </div>
-                <p>Our team built a backend designed to scale with the growing needs of a bustling online marketplace. We focused on crafting a solid architecture that ensures quick, secure, and seamless interactions for both buyers and sellers.</p>
+                <p style={{textAlign: 'center'}}>Our team built a backend designed to scale with the growing needs of a bustling online marketplace. We focused on crafting a solid architecture that ensures quick, secure, and seamless interactions for both buyers and sellers.</p>
 
                 <ul>
                     <li><span className="span-text">Tech Stack:</span> Leveraged Flask for the web framework, SQLAlchemy for ORM, PostgreSQL as the database, Alembic for migrations, and Flask-Migrate for version control.</li>
@@ -113,14 +113,14 @@ const Crafty = () => {
                 </ul>
                 <p><span className="span-text">Challenges & Solutions</span></p>
                 <p><span className="span-text">Database Efficiency: </span></p>
-                <ul style={{marginLeft: '20px'}}>
+                <ul style={{}}>
                     <li><span className="span-text">Challenge: </span> Ensuring the application could handle complex queries without slowing down.</li>
                     <li>
                     <span className="span-text">Solution: </span> Optimized database queries by indexing frequently accessed fields and carefully structuring relationships to minimize redundant data.
                     </li>
                 </ul>
                 <p><span className="span-text">Managing Schema Evolution: </span></p>
-                <ul style={{marginLeft: '20px'}}>
+                <ul style={{}}>
                     <li><span className="span-text">Challenge: </span> Updating the database schema without disrupting existing data or features.</li>
                     <li>
                     <span className="span-text">Solution: </span> Used Alembic migrations to apply incremental schema updates safely during development.

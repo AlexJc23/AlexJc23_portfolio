@@ -11,10 +11,9 @@ const Homepage = () => {
     <div className='wholepage'>
       <div  className='landing-cont'>
           <p>Hi, I’m Alex, a full-stack developer based in Atlanta.</p>
-          <a href="mailto:alexcarl.dev@gmail.com" className="landing-email">
+          <a id='about' href="mailto:alexcarl.dev@gmail.com" className="landing-email">
             Get in touch
           </a>
-        <div id='about' >about</div>
       </div>
 
       <div  >

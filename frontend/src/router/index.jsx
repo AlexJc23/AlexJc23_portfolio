@@ -5,6 +5,7 @@ import Homepage from '../Components/Homepage';
 import Resume from '../Components/Resume/Resume';
 import DuelForge from '../Components/DuelForge/DuelForge';
 import Crafty from '../Components/Crafty';
+import Sqg from '../Components/SidequestGatherings/Sqg';
 
 
 export const router = createBrowserRouter([
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
       {
         path: "/crafty",
         element: <Crafty />,
+      },
+      {
+        path: "/sidequest_gatherings",
+        element: <Sqg />,
       },
 
           ],

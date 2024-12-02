@@ -2,7 +2,7 @@ import {NavLink } from "react-router-dom"
 
 const Project3 = () => {
     return (
-        <NavLink className='project-nav' to={'/sidequestgatherings'}>
+        <NavLink className='project-nav' to={'/sidequest_gatherings'}>
             <div>
                 <div className="df-header">
                     <h3>SideQuest Gatherings (Meetup inspired)</h3>
