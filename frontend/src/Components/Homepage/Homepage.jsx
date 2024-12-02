@@ -9,13 +9,15 @@ import './Homepage.css'
 const Homepage = () => {
     return(
     <div className='wholepage'>
-      <div className='landing-cont'>
+      <div  className='landing-cont'>
           <p>Hi, I’m Alex, a full-stack developer based in Atlanta.</p>
           <a href="mailto:alexcarl.dev@gmail.com" className="landing-email">
             Get in touch
           </a>
+        <div id='about' >about</div>
       </div>
-      <div id='about'>
+
+      <div  >
         <About />
       </div>
       <div id='projects'>

@@ -49,7 +49,7 @@ const Nav = () => {
         <ul className={`nav-menu ${showMenu ? "show" : ""}`}>
           <li className="menu-item">
             <button onClick={() => scrollToSection("about")} className="nav-link">
-              About Me
+              About
             </button>
           </li>
           <li className="menu-item">
