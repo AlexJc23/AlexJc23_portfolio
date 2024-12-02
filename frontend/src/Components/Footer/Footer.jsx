@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className='footer-right'>
         <a
-          href="https://www.linkedin.com/in/alex-carl-bb79811b8"
+          href="https://www.linkedin.com/in/alexcarl/"
           target="_blank"
           rel="noopener noreferrer"
           className="footer-link"
