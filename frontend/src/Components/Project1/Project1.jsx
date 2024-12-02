@@ -16,7 +16,7 @@ const Project1 = () => {
                         <li><span className="span-text-main">Role: </span><p>Full Stack Developer</p></li>
                         <li><span className="span-text-main">Duration: </span><p>August 2024 - Now</p></li>
                         <li><span className="span-text-main">Responsibilities: </span><p>UX/Ui Design, Wireframing, Frontend/Backend Development </p></li>
-
+ 
                     </ul>
                 </div>
                 </div>
