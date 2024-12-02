@@ -21,7 +21,7 @@ const Project1 = () => {
                 </div>
                 </div>
                 <div >
-                    <img className="project-img" src="frontend/public/gamingdf.jpeg" alt="DuelForge mockup image" />
+                    <img className="project-img" src="gamingdf.jpeg" alt="DuelForge mockup image" />
                 </div>
             </div>
 
