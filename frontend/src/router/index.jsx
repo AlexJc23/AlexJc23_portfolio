@@ -4,6 +4,7 @@ import Layout from './Layout';
 import Homepage from '../Components/Homepage';
 import Resume from '../Components/Resume/Resume';
 import DuelForge from '../Components/DuelForge/DuelForge';
+import Crafty from '../Components/Crafty';
 
 
 export const router = createBrowserRouter([
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: "/duelforge",
         element: <DuelForge />,
+      },
+      {
+        path: "/crafty",
+        element: <Crafty />,
       },
 
           ],
