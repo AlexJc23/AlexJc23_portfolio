@@ -19,7 +19,7 @@ const DuelForge = () => {
             <div style={{borderBottom: '1px solid #00000046', paddingBottom: '50px'}} className="project-top">
                 <IoIosArrowRoundBack style={{fontSize: '30px', cursor: 'pointer'}} onClick={handleBack}/>
                 <h1>DuelForge</h1>
-                <img className='project-topimg' src={"./src/assets/createDeckmock.png"}/>
+                <img className='project-topimg' src={"createDeckmock.png"}/>
                 <p>Platform built with React and Flask that allows users to create and manage custom Yu-Gi-Oh! decks while exploring a vast card collection. With community-driven events, an intuitive interface, and real-time updates, players can join tournaments, connect with others, and refine their strategies for a seamless dueling experience.</p>
                 <div className="links">
                     <a href="https://duelforge.onrender.com/">Live Demo</a>
@@ -31,9 +31,9 @@ const DuelForge = () => {
             </div>
             <div style={{borderBottom: '1px solid #00000046', paddingBottom: '50px'}} className="planning">
             <div className="planning-right">
-                    <img className="plan-img third-img" src="./src/assets/df_wireframes.png" alt=""/>
-                    <img className="plan-img first-img" src="./src/assets/duelforge_redux.png" alt=""/>
-                    <img className="plan-img second-img" src="./src/assets/df_schema.png" alt=""/>
+                    <img className="plan-img third-img" src="df_wireframes.png" alt=""/>
+                    <img className="plan-img first-img" src="duelforge_redux.png" alt=""/>
+                    <img className="plan-img second-img" src="df_schema.png" alt=""/>
                 </div>
                 <div className="planning-left">
                     <p>
@@ -63,9 +63,9 @@ const DuelForge = () => {
                     </li>
                 </ul>
                 <div className="img-fan">
-                    <img className="plan-img first-front" src="./src/assets/codeSnippFront1.png" alt="frontend code snippet"/>
-                    <img className="plan-img second-front" src="./src/assets/codeSnippFront2.png" alt="frontend code snippet"/>
-                    <img className="plan-img third-front" src="./src/assets/codeSnippFront4.png" alt="frontend code snippet"/>
+                    <img className="plan-img first-front" src="codeSnippFront1.png" alt="frontend code snippet"/>
+                    <img className="plan-img second-front" src="codeSnippFront2.png" alt="frontend code snippet"/>
+                    <img className="plan-img third-front" src="codeSnippFront4.png" alt="frontend code snippet"/>
                 </div>
                 <p><span className="span-text"></span>Challenges & Solutions</p>
                 <ul>
@@ -80,9 +80,9 @@ const DuelForge = () => {
             </div>
             <div  className="project-backend">
                 <div className="imgs-backend">
-                    <img className="plan-img first-front" src="./src/assets/codeSnippBack1.png" alt="frontend code snippet"/>
-                    <img className="plan-img second-front" src="./src/assets/codeSnippBack2.png" alt="frontend code snippet"/>
-                    <img className="plan-img third-front" src="./src/assets/codeSnippBack3.png" alt="frontend code snippet"/>
+                    <img className="plan-img first-front" src="codeSnippBack1.png" alt="frontend code snippet"/>
+                    <img className="plan-img second-front" src="codeSnippBack2.png" alt="frontend code snippet"/>
+                    <img className="plan-img third-front" src="codeSnippBack3.png" alt="frontend code snippet"/>
                 </div>
                 <p>For the backend, I focus on building secure, efficient, and maintainable systems using a Python-based stack. Key elements of my backend development include:</p>
 

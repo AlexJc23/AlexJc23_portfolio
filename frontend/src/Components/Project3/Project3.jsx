@@ -21,7 +21,7 @@ const Project3 = () => {
                 </div>
                 </div>
                 <div >
-                    <img className="project-img" src="../src/assets/sqgmockup.jpeg" alt="Crafty mockup image" />
+                    <img className="project-img" src="sqgmockup.jpeg" alt="Crafty mockup image" />
                 </div>
             </div>
 
