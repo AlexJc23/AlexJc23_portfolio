@@ -1,7 +1,7 @@
 import "./Resume.css";
 
 
-import resumePDF from "../../assets/Alex_Carl_resume.pdf";
+import resumePDF from "../../assets/carl_alex_resume.pdf";
 
 const Resume = () => {
     return (
