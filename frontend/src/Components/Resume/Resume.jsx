@@ -1,7 +1,7 @@
 import "./Resume.css";
 
 
-import resumePDF from "../../assets/carl_alex_resume.pdf";
+import resumePDF from "../../assets/resume_alex_carl.pdf";
 
 const Resume = () => {
     return (
@@ -9,7 +9,7 @@ const Resume = () => {
             <iframe
                 src={resumePDF}
                 width="100%"
-                height="800px"
+                height="1000px"
                 title="Resume"
             />
         </div>
