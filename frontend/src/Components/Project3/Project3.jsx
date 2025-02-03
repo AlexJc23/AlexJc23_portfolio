@@ -9,7 +9,7 @@ const Project3 = () => {
                 </div>
                 <div className="project-middle">
                 <div className="df-topleft">
-                    <p>E-commerce platform built with JavaScript, Express, and React, allowing users to buy and sell custom-made clothing, accessories, and cosplay props. Users can list items for sale, interact with products through a shopping cart, reviews, and favorites, while instantly making their items available for others to explore..</p>
+                    <p>SideQuest Gatherings is a Meetup clone designed to bring like-minded individuals together for events centered around gaming, hobbies, and social gatherings. Built with Express.js on the backend and React on the frontend, the platform allows users to create, discover, and join events seamlessly. With a robust authentication system, users can manage their profiles, organize events, and engage with communities. The application ensures a smooth and dynamic user experience, leveraging RESTful APIs for data handling and state management to keep everything responsive and interactive.</p>
                 </div>
                 <div className="df-topright">
                     <ul className="project-list">
