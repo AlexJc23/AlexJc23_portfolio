@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -59,6 +62,9 @@ html, body {
   max-width: fit-content;
 }
 
+#projects {
+  margin-top: 100px;
+}
 /* Responsive Design for Tablet and Below */
 @media (max-width: 768px) {
   .landing-cont p {

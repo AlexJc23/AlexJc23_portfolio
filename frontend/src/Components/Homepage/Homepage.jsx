@@ -2,6 +2,7 @@ import About from '../About/About';
 import Project1 from '../Project1/Project1';
 import Project2 from '../Project2/Project2';
 import Project3 from '../Project3';
+import Skills from '../Skills/Skills';
 import './Homepage.css'
 
 
@@ -19,7 +20,10 @@ const Homepage = () => {
       <div  >
         <About />
       </div>
-      <div id='projects'>
+      <div>
+        <Skills />
+      </div>
+      <div id='projects' className='font-bold'>
         <h3>Projects</h3>
         <Project1 />
         <Project2 />

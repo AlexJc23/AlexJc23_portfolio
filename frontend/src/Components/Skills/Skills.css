@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 100px; /* Adjust for smoother gradient effect */
+    height: 100%;
+    z-index: 2;
+  }
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+
+  .logo_items {
+    display: flex;
+    gap: 40px;
+    animation: slides 120s linear infinite;
+  }
+
+  /* Duplicate content for a seamless loop */
+  .logo_items::after {
+    content: "";
+    display: flex;
+    gap: 40px;
+  }
+
+  .logos:hover .logo_items {
+    animation-play-state: paused;
+  }
