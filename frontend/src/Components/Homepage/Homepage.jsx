@@ -23,8 +23,8 @@ const Homepage = () => {
       <div>
         <Skills />
       </div>
-      <div id='projects' className='font-bold'>
-        <h3>Projects</h3>
+      <div id='projects'>
+        <h3 className='font-bold'>Projects</h3>
         <Project1 />
         <Project2 />
         <Project3 />
